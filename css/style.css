@@ -1,4 +1,11 @@
-body {
+@font-face {
+  font-family: Ginto;
+  src: local("Ginto"),
+    url("../fonts/e4308d367bcb6c91660d8618148e307d.woff") format("woff");
+  font-weight: normal;
+}
+
+odyy {
   background-color: #2f3136;
 }
 .banner {
@@ -30,6 +37,7 @@ body {
 .login-login,
 .login-logout,
 .login-username-and-tag {
+  font-family: "Ginto";
   display: flex;
   align-items: center;
   color: #ffffff;
